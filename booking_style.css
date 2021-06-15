@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body{
+    font-family: Arial;
+    font-family: 'Muli', sans-serif;
+}
+
+.title{
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-bottom: 60px;
+}
+
+/*Style for menu bar*/
+.box{
+    width: 550px;
+    float: right;
+    border: 1px solid none;
+    margin-top: 35px;
+}
+
+.box ul li{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box ul li a{
+    text-decoration: none;
+    color: black
+}
+
+/*Style for calendar*/
+
+.select:invalid{
+    color: gray;
+}
+
+.calendar{
+    width:600px;
+    float:left;
+    margin: 0 20px;
+}
+
+/*Style for form*/
+.info {
+    width: 400px;
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.info b{
+    margin-left: 160px;
+}
+
+.form{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    width: 400px;
+    height: 50px;
+    padding-left: 20px;
+    margin: 5px 130px;
+    cursor: pointer;
+}
+
+.form:focus{
+    outline: none;
+}
+
+.submit{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin: 5px 290px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+
+.resolved{
+    position: relative;
+    margin-top: 450px;
+    margin-left: 500px;
+}
